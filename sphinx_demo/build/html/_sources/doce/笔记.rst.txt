@@ -1,0 +1,242 @@
+
+=========
+设置标题
+=========
+
+
+
+
+
+标题1
+=============
+
+标题2
+-------------
+
+标题3
+`````````````
+
+标题4
+'''''''''''''
+
+
+
+
+2.文字格式
+==========
+**text**
+:emphasis:`text`
+
+``text``
+:literal:`text`
+
+``text \ and \ backslashes``
+:literal:`text \ and \ backslashes`
+
+
+If there just *has* to be a line break here,
+:raw-html:`<br />`
+it can be accomplished with a "raw"-derived role.
+But the line block syntax should be considered first.
+
+.. role:: raw-html(raw)
+   :format: html
+
+
+
+
+::
+
+    Literal block
+
+
+
+
+   The larch.
+
+* BULLET LIST FOR *
+* BULLETS CAN BE "*","+" "-"
+
+-  bullet list for -
+- Bullets can be "*", "+", or "-".
+
++  list for +
++ bullets can be "* + -"
+
+
+1. This is an enumerated list.
+2.  numbers, letters, or roman numerals.
+3.  arcbic numbers, letters, or roman numerals 
+
+
+a. 111111
+b. 22222
+c. 33333
+d. 44444
+
+
+This is a typical paragraph.  An indented literal block follows.
+
+::
+
+    for a in [5,4,3,2,1]:   # this is program code, shown as-is
+        print a
+    print "it's..."
+    # a literal block continues until the indentation ends
+
+This text has returned to the indentation of the first paragraph,
+is outside of the literal block, and is therefore treated as an
+ordinary paragraph.
+
+
+
+
+:Date: 2023-02-21
+:Version: 1
+:Authors: - Me
+          - Myself
+          - I
+:Indentation: Since the field marker 
+:Parameter i: integer
+
+
+Since the field marker may be quite long, the second and subsequent
+lines of the field body do not have to line upwith the first line, but they must be indented relative to the
+field name marker, and they must line up with each other.
+
+
+
+
+
+
+term 1
+    Definition 1.
+
+term 2
+    Definition 2, paragraph 1.
+
+    Definition 2, paragraph 2.
+
+term 3 : classifier
+    Definition 3.
+
+term 4 : classifier one : classifier two
+    Definition 4.
+
+\-term 5
+    Without escaping, this would be an option list item.
+
+
+1. Item 1 initial text.
+
+   a) Item 1a.
+   b) Item 1b.
+
+2. a) Item 2a.
+   b) Item 2b.
+
+
++------------+------------+-----------------+
+| 时间       | 地点       |  人物           |
++============+============+=================+
+| 2023.02    | London     | justin bieber   |
++------------+------------+-----------------+
+
+.. role:: raw-html(raw)
+   :format: html
+
+提示框
+=========
+
+.. note:: 注解注解
+
+
+.. DANGER:: 危险危险
+   
+.. admonition:: 提示框标题
+
+   内容内容.
+
+.. sidebar:: 侧边提示框标题
+   :subtitle: 提示框
+
+   内容内容
+
+.. topic:: Topic Title
+
+    内容
+
+"To Ma Own Beloved Lassie: A Poem on her 17th Birthday", by
+Ewan McTeagle (for Lassie O'Shea):
+
+    .. line-block::
+
+        Lend us a couple of bob till Thursday.
+        I'm absolutely skint.
+        But I'm expecting a postal order and I can pay you back
+            as soon as it comes.
+        Love, Ewan.
+
+
+
+
+.. code:: python
+
+  def my_function():
+      "just a test"
+      print 8/2
+
+.. math::
+
+  α_t(i) = P(O_1, O_2, … O_t, q_t = S_i λ)
+
+
+//
+.. epigraph::
+
+   No matter where you go, there you are.
+
+   -- Buckaroo Banzai
+
+
+format:  text
+
+=====  =====
+col 1  col 2
+=====  =====
+1      Second column of row 1.
+2      Second column of row 2.
+       Second line of paragraph.
+3      - Second column of row 3.
+
+       - Second item in bullet
+         list (row 3, column 2).
+\      Row 4; column 1 will be empty.
+=====  =====
+
+图片格式
+=========
+
+
+
+
+.. image:: /image/60099.gif
+   :height: 400px
+   :width: 400 px
+   :scale: 50 %
+   :alt: alternate text
+   :align: center
+
+
+
+
+.. figure:: /image/power_down流程图.png
+   :scale: 10
+
+
+
+.. figure:: /image/power_down流程图.png
+   :scale: 50 %
+   :alt: map to buried treasure
+
+

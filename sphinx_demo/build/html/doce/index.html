@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh-CN" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>1. res文本笔记 &mdash; demo v1.o 文档</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+        <script src="../_static/translations.js"></script>
+        <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="索引" href="../genindex.html" />
+    <link rel="search" title="搜索" href="../search.html" />
+    <link rel="prev" title="test3,testsfff" href="../index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            demo
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="搜索文档" aria-label="搜索文档" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="导航菜单">
+              <p class="caption" role="heading"><span class="caption-text">rst学习笔记</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">1. res文本笔记</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id1">1.1. 自动编译</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id2">1.2. 模块</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id3">1.3. 文本块</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id4">1.4. 段落跳转</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id5">1.5. 标题1</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id6">1.5.1. 标题2</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id7">1.5.1.1. 标题3</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id9">1.6. 字体格式</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id10">1.7. 段落格式</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id11">1.8. 表格形式</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id12">1.9. 提示框</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id13">1.10. 图片格式</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id14">1.11. 列表模块</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="移动版导航菜单" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">demo</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="页面导航">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active"><span class="section-number">1. </span>res文本笔记</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/doce/index.rst.txt" rel="nofollow"> 查看页面源码</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="res">
+<h1><span class="section-number">1. </span>res文本笔记<a class="headerlink" href="#res" title="此标题的永久链接"></a></h1>
+<section id="id1">
+<h2><span class="section-number">1.1. </span>自动编译<a class="headerlink" href="#id1" title="此标题的永久链接"></a></h2>
+<div class="line-block">
+<div class="line"><strong>服务器上的指令是：</strong></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sphinx</span><span class="o">-</span><span class="n">autobuild</span> <span class="n">source</span> <span class="n">build</span><span class="o">/</span><span class="n">html</span> <span class="o">-</span><span class="n">H</span> <span class="mf">0.0.0.0</span> <span class="o">-</span><span class="n">p</span> <span class="mi">7000</span>
+</pre></div>
+</div>
+<div class="line-block">
+<div class="line"><strong>windows上的指令:</strong></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sphinx</span><span class="o">-</span><span class="n">autobuild</span> <span class="n">source</span>  <span class="n">build</span><span class="o">/</span><span class="n">html</span>
+</pre></div>
+</div>
+</section>
+<section id="id2">
+<h2><span class="section-number">1.2. </span>模块<a class="headerlink" href="#id2" title="此标题的永久链接"></a></h2>
+<ul class="simple">
+<li><p>代码模块</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">my_function</span><span class="p">():</span>
+    <span class="s2">&quot;just a test&quot;</span>
+    <span class="nb">print</span> <span class="mi">8</span><span class="o">/</span><span class="mi">2</span>
+</pre></div>
+</div>
+<div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="linenos">1</span><span class="kt">void</span><span class="w"> </span><span class="nf">foo</span><span class="p">()</span>
+<span class="linenos">2</span><span class="p">{</span>
+<span class="hll"><span class="linenos">3</span><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="p">;</span>
+</span><span class="linenos">4</span>
+<span class="linenos">5</span><span class="w">    </span><span class="k">for</span><span class="p">(</span><span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">&lt;</span><span class="mi">10</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span>
+<span class="hll"><span class="linenos">6</span><span class="w">        </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;i: %d</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">a</span><span class="p">);</span>
+</span><span class="linenos">7</span><span class="p">}</span>
+</pre></div>
+</div>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="linenos">1</span><span class="gp">$ </span>ls
+<span class="linenos">2</span><span class="gp">$ </span>uname<span class="w"> </span>-a
+</pre></div>
+</div>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;Hello World!&quot;</span><span class="p">;</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>数学模块</p></li>
+</ul>
+<div class="math notranslate nohighlight">
+\[α_t(i) = P(O_1, O_2, … O_t, q_t = S_i λ)\]</div>
+<ul class="simple">
+<li><p>名言模块</p></li>
+</ul>
+<blockquote class="epigraph">
+<div><p>No matter where you go, there you are.</p>
+<p class="attribution">—Buckaroo Banzai</p>
+</div></blockquote>
+</section>
+<section id="id3">
+<h2><span class="section-number">1.3. </span>文本块<a class="headerlink" href="#id3" title="此标题的永久链接"></a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">a</span> <span class="ow">in</span> <span class="p">[</span><span class="mi">5</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">1</span><span class="p">]:</span>   <span class="c1"># this is program code, shown as-is</span>
+    <span class="nb">print</span> <span class="n">a</span>
+<span class="nb">print</span> <span class="s2">&quot;it&#39;s...&quot;</span>
+<span class="c1"># a literal block continues until the indentation ends</span>
+</pre></div>
+</div>
+</section>
+<section id="id4">
+<h2><span class="section-number">1.4. </span>段落跳转<a class="headerlink" href="#id4" title="此标题的永久链接"></a></h2>
+<blockquote>
+<div><p><a class="reference internal" href="#id10">段落格式</a></p>
+</div></blockquote>
+</section>
+<section id="id5">
+<h2><span class="section-number">1.5. </span>标题1<a class="headerlink" href="#id5" title="此标题的永久链接"></a></h2>
+<section id="id6">
+<h3><span class="section-number">1.5.1. </span>标题2<a class="headerlink" href="#id6" title="此标题的永久链接"></a></h3>
+<section id="id7">
+<h4><span class="section-number">1.5.1.1. </span>标题3<a class="headerlink" href="#id7" title="此标题的永久链接"></a></h4>
+<section id="id8">
+<h5><span class="section-number">1.5.1.1.1. </span>标题4<a class="headerlink" href="#id8" title="此标题的永久链接"></a></h5>
+</section>
+</section>
+</section>
+</section>
+<section id="id9">
+<h2><span class="section-number">1.6. </span>字体格式<a class="headerlink" href="#id9" title="此标题的永久链接"></a></h2>
+<ol class="arabic simple">
+<li><p>斜体的两种写法：<em>text</em> 和 <em>text</em></p></li>
+<li><p>红字白框的效果字体: <code class="docutils literal notranslate"><span class="pre">text</span></code> 和 <code class="docutils literal notranslate"><span class="pre">text</span></code></p></li>
+<li><p>加粗字体: <strong>text</strong></p></li>
+</ol>
+</section>
+<section id="id10">
+<h2><span class="section-number">1.7. </span>段落格式<a class="headerlink" href="#id10" title="此标题的永久链接"></a></h2>
+<ul class="simple">
+<li><p>段落符号是 *</p></li>
+<li><p>段落符号开头符号可以是 “*”,”+” “-”</p></li>
+</ul>
+<ul class="simple">
+<li><p>段落符号是r -</p></li>
+<li><p>段落符号开头符号可以是 “*”, “+”, or “-“.</p></li>
+</ul>
+<ul class="simple">
+<li><p>段落符号是 +</p></li>
+<li><p>段落符号开头符号可以是 “* + -”</p></li>
+</ul>
+<ol class="arabic simple">
+<li><p>This is an enumerated list.</p></li>
+<li><p>numbers, letters, or roman numerals.</p></li>
+<li><p>arcbic numbers, letters, or roman numerals</p></li>
+</ol>
+<ol class="loweralpha simple">
+<li><p>111111</p></li>
+<li><p>22222</p></li>
+<li><p>33333</p></li>
+<li><p>44444</p></li>
+</ol>
+</section>
+<section id="id11">
+<h2><span class="section-number">1.8. </span>表格形式<a class="headerlink" href="#id11" title="此标题的永久链接"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>时间</p></th>
+<th class="head"><p>地点</p></th>
+<th class="head"><p>人物</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>2023.02</p></td>
+<td><p>London</p></td>
+<td><p>justin bieber</p></td>
+</tr>
+</tbody>
+</table>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>1</p></th>
+<th class="head"><p>2</p></th>
+<th class="head"><p>3</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>22</p></td>
+<td><p>222</p></td>
+<td><p>222</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id12">
+<h2><span class="section-number">1.9. </span>提示框<a class="headerlink" href="#id12" title="此标题的永久链接"></a></h2>
+<div class="admonition note">
+<p class="admonition-title">备注</p>
+<p>注解注解</p>
+</div>
+<div class="admonition danger">
+<p class="admonition-title">危险</p>
+<p>危险危险</p>
+</div>
+<div class="admonition- admonition">
+<p class="admonition-title">提示框标题</p>
+<p>内容内容.</p>
+</div>
+<aside class="sidebar">
+<p class="sidebar-title">侧边提示框标题</p>
+<p class="sidebar-subtitle">提示框</p>
+<p>内容内容</p>
+</aside>
+</section>
+<section id="id13">
+<h2><span class="section-number">1.10. </span>图片格式<a class="headerlink" href="#id13" title="此标题的永久链接"></a></h2>
+<a class="reference internal image-reference" href="../_images/maliao.gif"><img alt="alternate text" class="align-center" src="../_images/maliao.gif" style="width: 200.0px; height: 200.0px;" /></a>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../_images/changshaxu.jpg"><img alt="../_images/changshaxu.jpg" src="../_images/changshaxu.jpg" style="width: 192.0px; height: 108.0px;" /></a>
+</figure>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../_images/changshaxu.jpg"><img alt="map to buried treasure" src="../_images/changshaxu.jpg" style="width: 960.0px; height: 540.0px;" /></a>
+</figure>
+</section>
+<section id="id14">
+<h2><span class="section-number">1.11. </span>列表模块<a class="headerlink" href="#id14" title="此标题的永久链接"></a></h2>
+<dl class="field-list simple">
+<dt class="field-odd">Date<span class="colon">:</span></dt>
+<dd class="field-odd"><p>2023-02-21</p>
+</dd>
+<dt class="field-even">Version<span class="colon">:</span></dt>
+<dd class="field-even"><p>1</p>
+</dd>
+<dt class="field-odd">Authors<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p>Me</p></li>
+<li><p>Myself</p></li>
+<li><p>I</p></li>
+</ul>
+</dd>
+<dt class="field-even">Indentation<span class="colon">:</span></dt>
+<dd class="field-even"><p>Since the field marker</p>
+</dd>
+<dt class="field-odd">Parameter i<span class="colon">:</span></dt>
+<dd class="field-odd"><p>integer</p>
+</dd>
+</dl>
+<p>Since the field marker may be quite long, the second and subsequent
+lines of the field body do not have to line upwith the first line, but they must be indented relative to the
+field name marker, and they must line up with each other.</p>
+<dl>
+<dt>term 1</dt><dd><p>Definition 1.</p>
+</dd>
+<dt>term 2</dt><dd><p>Definition 2, paragraph 1.</p>
+<p>Definition 2, paragraph 2.</p>
+</dd>
+<dt>term 3<span class="classifier">classifier</span></dt><dd><p>Definition 3.</p>
+</dd>
+<dt>term 4<span class="classifier">classifier one</span><span class="classifier">classifier two</span></dt><dd><p>Definition 4.</p>
+</dd>
+<dt>-term 5</dt><dd><p>Without escaping, this would be an option list item.</p>
+</dd>
+</dl>
+<ol class="arabic simple">
+<li><p>Item 1 initial text.</p>
+<ol class="loweralpha simple">
+<li><p>Item 1a.</p></li>
+<li><p>Item 1b.</p></li>
+</ol>
+</li>
+<li><ol class="loweralpha simple">
+<li><p>Item 2a.</p></li>
+<li><p>Item 2b.</p></li>
+</ol>
+</li>
+</ol>
+<aside class="topic">
+<p class="topic-title">Topic Title</p>
+<p>内容</p>
+</aside>
+<p>“To Ma Own Beloved Lassie: A Poem on her 17th Birthday”, by
+Ewan McTeagle (for Lassie O’Shea):</p>
+<blockquote>
+<div><div class="line-block">
+<div class="line">Lend us a couple of bob till Thursday.</div>
+<div class="line">I’m absolutely skint.</div>
+<div class="line">But I’m expecting a postal order and I can pay you back</div>
+<div class="line-block">
+<div class="line">as soon as it comes.</div>
+</div>
+<div class="line">Love, Ewan.</div>
+</div>
+</div></blockquote>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="页脚">
+        <a href="../index.html" class="btn btn-neutral float-left" title="test3,testsfff" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; 版权所有 2023, zjy.</p>
+  </div>
+
+  利用 <a href="https://www.sphinx-doc.org/">Sphinx</a> 构建，使用的 
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">主题</a>
+    由 <a href="https://readthedocs.org">Read the Docs</a> 开发.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
